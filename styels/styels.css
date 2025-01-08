@@ -128,3 +128,29 @@ main{
 main section{
     margin: 130px;
 }
+/* resume container */
+.resume-container{
+    display: flex;
+    gap: 24px;
+}
+.expriance-titel{
+    font-size: 25px;
+
+}
+.section-titel{
+    text-align: center;
+}
+.expriance-sub-titel{
+    font-size: 20px;
+    margin: 20px;
+}
+.expriance-decprition, .expriance-sub-titel{
+    color: #757575;
+}
+.resume hr{
+    margin: 25px;
+}
+.resume-btn{
+    text-align: center;
+    margin-top: 25px;
+}
