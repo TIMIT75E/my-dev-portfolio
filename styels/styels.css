@@ -1,0 +1,130 @@
+
+/* header */
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+
+.secendery-bg{
+    background-color: #fce5d5bc;
+}
+
+.work-sans-normal{
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* ncolor: #474747av styels */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 100px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+/* text-color */
+.t-color{
+    color: #FD6E0A;
+}
+nav ul li{
+    list-style: none;
+}
+nav li a{
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 51px;
+}
+.dark2{
+    color: #474747;   
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+.btn{
+    padding: 18px 36px;
+    border: none;
+    background-color: #FD6E0A;
+    border-radius: 6px;
+    color: aliceblue;
+    font-size: large;
+
+}
+.btn:hover{
+    background-color: #e95d05;
+    cursor: pointer;
+}
+/* bannar styels */
+.bannar-wlcm{
+    font-size: 45px;
+    font-weight: 600;
+}
+.bannar-titel{
+    font-weight: bold;
+    font-size: 85px;
+}
+.profile-img{
+    width: 580px;
+}
+.bannar{
+    display: flex;
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+    justify-content: center;
+}
+.bannar-content{
+    max-width: 585px;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 0px 38px 0px 240px;
+}
+.section-titel{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+.section-description{
+    font-size: 19px;
+    color: #757575;
+}
+/* about section */
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+  
+}
+/* main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.item-titel{
+    font-weight: 600px;
+}
+.about-items{
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+}
+.skills-cointer{
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+
+}
+main section{
+    margin: 130px;
+}
